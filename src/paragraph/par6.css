@@ -1,0 +1,61 @@
+.para6{
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7) url(https://clickflox.com/wp-content/uploads/2018/11/hero-bg.jpg);
+    background-blend-mode: darken;
+    background-size: 100% 100%;
+    margin-top: 50px;
+    position: sticky;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+
+.para61{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.parabox61{
+    margin-top: 600px;
+}
+
+.parbox6{
+    font-size: 4rem;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.btn2{
+    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 17px;
+    padding-right: 40px;
+    padding-bottom: 17px;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #fff;
+    width: 200px;
+   background-color: rgb(251, 32, 86);
+    align-self: center;
+    border: 1px solid rgb(251, 32, 86);
+}
+

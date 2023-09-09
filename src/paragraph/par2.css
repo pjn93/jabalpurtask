@@ -1,0 +1,140 @@
+.parbox2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+margin-top: 50px;
+}
+
+.parbox21{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 80px;
+}
+.parbox22{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow:auto;
+}
+
+.pp1{
+    font-size: 32px;
+    color: #191919;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2.6rem;
+
+}
+
+.pp2{
+    color: #404040;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    line-height: 1.6rem;
+    border: 0;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .flex-item-left {
+    background-color: #fff;
+    /* flex: 30%; */
+     width: 300px;
+     height: 160px;
+     border-radius: 15px 15px;
+     padding-top: 20px;
+  }
+
+  .flex-item-left:hover {
+    background-color: hwb(345 12% 2% / 0.725);
+    color: #fff;
+cursor: pointer;
+  }
+
+  .flex-item-right:hover {
+   background-color: hwb(345 12% 2% / 0.725);
+   color: #fff;
+cursor: pointer;
+
+  }
+
+  
+  .flex-item-right {
+    /* flex: 30%; */
+    background-color: #fff;
+    width: 300px;
+    /* height: 150px; */
+    border-radius: 15px 15px;
+    padding-top: 20px;
+
+
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+      border-radius: 0%;
+      margin-top: 10px;
+      border-radius: 20px 20px ;
+  
+    }
+.flex-container{
+  width: 95%;
+  margin-left: 20px;
+}
+
+    .parbox2{
+      display: flex;
+      flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .parbox22{
+        width: 100%;
+    }
+    .parbox21{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    h3{
+      font-size: 1.5rem;
+      margin-left: -65px;
+    }
+    .pp1{
+      font-size: 2.5rem;
+      margin-top: 30px;
+    
+    }
+    .pp2{
+      width: 100%;
+      font-size: 20px;
+      margin-left: -65px;
+      line-height: 2rem;
+    }
+  }

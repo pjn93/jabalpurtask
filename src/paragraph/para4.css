@@ -1,0 +1,93 @@
+.parbox42{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ppp{
+    font-size: 20px;
+    color: #000000a8;
+}
+.parbox421{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow:auto;
+    
+}
+
+.parbox422{
+    margin-left: 20px;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .flex-item-left1 {
+    background-color: #fff;
+    /* flex: 30%; */
+     width: 280px;
+     height: 160px;
+     border-radius: 15px 15px;
+     padding-top: 20px;
+     line-height: 1.1rem;
+  }
+  
+  .flex-item-right1 {
+    /* flex: 30%; */
+    background-color: #fff;
+    width: 280px;
+    /* height: 150px; */
+    border-radius: 15px 15px;
+    padding-top: 20px;
+    line-height: 1.1rem;
+  }
+
+  .flex-item-left1:hover {
+    background-color: rgba(250, 31, 85, 0.281);
+cursor: pointer;
+  }
+
+  .flex-item-right1:hover {
+    background-color: rgba(250, 31, 85, 0.281);
+cursor: pointer;
+
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right1, .flex-item-left1 {
+      flex: 100%;
+      border-radius: 0%;
+      margin-top: 10px;
+      margin-top: 10px;
+      border-radius: 20px 20px ;
+    }
+
+    .parbox421{
+      width: 100%;
+    }
+   
+    .parbox42{
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .parbox422{
+      width: 100%;
+      margin-top: 50px;
+    }
+    .img422{
+      margin-left: -11px;
+      width: 98%;
+    }
+}
